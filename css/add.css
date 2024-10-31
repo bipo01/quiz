@@ -1,0 +1,72 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #f8f9fa; /* Fundo claro e agradável */
+}
+
+.card {
+    border-radius: 12px;
+    background-color: #ffffff;
+}
+
+.card h2 {
+    color: #0056b3; /* Azul escuro para o título */
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #004080;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.form-label {
+    color: #333;
+}
+
+.form-control {
+    border-radius: 8px;
+    border-color: #ced4da;
+}
+
+.form-control:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.25);
+}
+
+.certo {
+    background: #28a745;
+    color: #ffffff;
+}
+
+.errado {
+    background: #dc3545;
+    color: #ffffff;
+}
+
+.errado:hover {
+    background: #c82333;
+}
+
+.certo:hover {
+    background: #218838;
+}
+
+.certo::placeholder,
+.errado::placeholder {
+    color: white;
+}

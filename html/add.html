@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adicionar Pergunta</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="../css/add.css" />
+    </head>
+    <body class="bg-light">
+        <div
+            class="container d-flex justify-content-center align-items-center vh-100"
+        >
+            <div
+                class="card p-4 shadow-lg"
+                style="max-width: 600px; width: 100%"
+            >
+                <h2 class="text-center mb-4">Adicionar Pergunta</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="pergunta" class="form-label"
+                            >Pergunta</label
+                        >
+                        <input
+                            autocomplete="off"
+                            type="text"
+                            class="form-control"
+                            name="pergunta"
+                            id="pergunta"
+                            placeholder="Digite a pergunta"
+                            required
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label for="resposta1" class="form-label"
+                            >Resposta 1</label
+                        >
+                        <input
+                            autocomplete="off"
+                            type="text"
+                            class="form-control"
+                            name="resposta1"
+                            id="resposta1"
+                            placeholder="Digite a resposta 1"
+                            required
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label for="resposta2" class="form-label"
+                            >Resposta 2</label
+                        >
+                        <input
+                            autocomplete="off"
+                            type="text"
+                            class="form-control"
+                            name="resposta2"
+                            id="resposta2"
+                            placeholder="Digite a resposta 2"
+                            required
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label for="resposta3" class="form-label"
+                            >Resposta 3</label
+                        >
+                        <input
+                            autocomplete="off"
+                            type="text"
+                            class="form-control"
+                            name="resposta3"
+                            id="resposta3"
+                            placeholder="Digite a resposta 3"
+                            required
+                        />
+                    </div>
+                    <div class="mb-3">
+                        <label for="respostacerta" class="form-label"
+                            >Resposta Certa</label
+                        >
+                        <input
+                            autocomplete="off"
+                            type="text"
+                            class="form-control"
+                            name="respostacerta"
+                            id="respostacerta"
+                            placeholder="Digite a resposta certa"
+                            required
+                        />
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <button type="submit" class="btn btn-primary">
+                            Adicionar
+                        </button>
+                        <a href="#" id="voltar" class="btn btn-secondary"
+                            >Voltar</a
+                        >
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+        />
+        <script src="../js/add.js"></script>
+    </body>
+</html>
