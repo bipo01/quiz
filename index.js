@@ -23,10 +23,7 @@ proximaQuestao.addEventListener("click", () => {
     getData();
 });
 novoJogo.addEventListener("click", () => location.reload());
-novaPergunta.addEventListener(
-    "click",
-    () => (location.href = "../html/add.html")
-);
+novaPergunta.addEventListener("click", () => (location.href = "./add.html"));
 
 async function getData() {
     randomArr = [];

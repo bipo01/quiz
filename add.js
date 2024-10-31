@@ -50,5 +50,5 @@ document.querySelector("form").addEventListener("submit", async (e) => {
 
 document.querySelector("#voltar").addEventListener("click", (e) => {
     e.preventDefault();
-    location.href = "../html/index.html";
+    location.href = "./index.html";
 });
